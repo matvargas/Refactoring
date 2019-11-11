@@ -1,5 +1,3 @@
-package java;
-
 class Rental {
     private Movie _movie;
     private int _daysRented;
