@@ -30,7 +30,7 @@ public class CustomerTest {
         customer.addRental(rental6);
         customer.addRental(rental7);
 
-        Assert.assertEquals(customer.statement(), "java.Rental Record for customer\n" +
+        Assert.assertEquals(customer.statement(), "Rental Record for customer\n" +
                 "\tInterstellar\t0.0\n" +
                 "\tScream\t0.0\n" +
                 "\tFast and Furious\t0.0\n" +
